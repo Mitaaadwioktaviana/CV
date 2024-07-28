@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.left-container {
+    position: fixed;
+    width: 400px;
+    height: 100%;
+    background-color: #8ea698;
+}
+.photo-contact {
+    position: relative;
+    top: 100px;
+    text-align: center;
+}
+.photo {
+    width: 200px;
+    height: 220px;
+    border-radius: 50%;
+}
+.contact-btn {
+    /* width jarak dari parentsnya */
+    width: 50%; 
+    background-color: white;
+    border-radius: 14px;
+    margin-bottom: 14px;
+    /* font-size rem itu lebih besar 1.2x dari aslinya */
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 10px;
+}
+.contact-btn:hover {
+    /* ketika dihover, background-color akan berubah menjadi warna biru */
+    background-color: black; 
+    /* ketika dihover, color akan berubah menjadi warna putih */
+     color: white;
+     transition: 1s;
+}
+.right-container {
+    position: relative;
+    left: 400px;
+    
+}
+.top-bar {
+    padding-top: 50px;
+    padding-left: 100px;
+}
+.title {
+    font-style: italic;
+    font-size: 1.3rem;
+}
+.list-menu {
+    float: right;
+    padding-right: 50%;
+}
+.menu {
+    font-size: 1.1rem;
+    padding: 0 15px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#profile {
+    padding-top: 100px;
+    padding-left: 100px;
+}
+#About {
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#experience {
+    padding-top: 200px;
+    padding-left: 100px;
+}
+#achievment {
+    padding-top: 200px;
+    padding-left: 100px;
+}
+#contact {
+    padding-top: 200px;
+    padding-left: 100px;
+}
+#footer {
+    padding-top: 200px;
+    text-align: center;
+    font-size: 16px;
+}
+p, li {
+    line-height: 24px;
+}
